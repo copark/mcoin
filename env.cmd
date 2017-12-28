@@ -1,0 +1,3 @@
+@echo=off
+SET NODE_ENV=development
+SET TOKEN=434227922:AAGjj274g2nhBiwldKALgKt1y3A7tJifZSU
