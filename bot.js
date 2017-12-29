@@ -1,7 +1,9 @@
 var token = process.env.TOKEN;
 
+var schedule = require('node-schedule');
 var Bot = require('node-telegram-bot-api');
 var bot;
+
 
 if(process.env.NODE_ENV === 'production') {
   bot = new Bot(token);
